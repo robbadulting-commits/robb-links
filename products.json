@@ -1,0 +1,76 @@
+{
+  "categories": {
+    "Lighting & screens": {
+      "short": "Lighting",
+      "color": "#E8902F",
+      "tint": "#FFF1DC",
+      "glow": "rgba(232,144,47,.35)"
+    },
+    "Smart home": {
+      "short": "Smart home",
+      "color": "#4263EB",
+      "tint": "#E9EEFF",
+      "glow": "rgba(66,99,235,.28)"
+    },
+    "Comfort & cooling": {
+      "short": "Cooling",
+      "color": "#1C8C9E",
+      "tint": "#E1F4F6",
+      "glow": "rgba(28,140,158,.28)"
+    },
+    "Kitchen & cooking": {
+      "short": "Kitchen",
+      "color": "#C2552B",
+      "tint": "#FDEADC",
+      "glow": "rgba(194,85,43,.30)"
+    }
+  },
+  "products": [
+    {
+      "n": 5,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Air fryer",
+      "title": "The cooking loophole",
+      "take": "It doesn't actually fry. It's a tiny, very angry oven. Chips three days running. Still no spoon.",
+      "asin": "B07NBQX8HS",
+      "note": "SA: get 220-240 V",
+      "icon": "fryer",
+      "tags": "chips cooking oven",
+      "warning": "In South Africa? The Amazon one is a US 120 V model. Get a 220-240 V version on Temu."
+    },
+    {
+      "n": 4,
+      "room": "Living room",
+      "cat": "Comfort & cooling",
+      "name": "Heat-blocking window film",
+      "take": "Bounces part of the sun back out. Installation went perfectly. Ignore the bubble.",
+      "asin": "B09YH552HR",
+      "note": "No plug needed",
+      "icon": "window",
+      "tags": "heat sun glass cooling"
+    },
+    {
+      "n": 3,
+      "room": "Bedroom",
+      "cat": "Smart home",
+      "name": "Wi-Fi smart plug",
+      "take": "Lamps off from bed. Tested it forty-two times. It works every time.",
+      "asin": "B091FXQQMQ",
+      "note": "SA: get a local plug",
+      "icon": "plug",
+      "tags": "wifi lamp lights app"
+    },
+    {
+      "n": 2,
+      "room": "Living room",
+      "cat": "Lighting & screens",
+      "name": "USB TV backlight strip",
+      "take": "Peel, stick, plug into the TV. The picture pops. The cricket is still late.",
+      "asin": "B076X89GRW",
+      "note": "USB powered",
+      "icon": "tv",
+      "tags": "led light strip cricket screen"
+    }
+  ]
+}
