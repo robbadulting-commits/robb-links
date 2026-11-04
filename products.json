@@ -27,6 +27,18 @@
   },
   "products": [
     {
+      "n": 6,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Pull-cord food chopper",
+      "title": "Faster than the onion",
+      "take": "Each pull spins a spool. Big gear, small gear. Four pulls. Done. Still crying. That's pride.",
+      "asin": "B004QGXND0",
+      "note": "No plug needed",
+      "icon": "box",
+      "tags": "onion chopper kitchen pull cord"
+    },
+    {
       "n": 5,
       "room": "Kitchen",
       "cat": "Kitchen & cooking",
