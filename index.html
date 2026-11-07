@@ -74,7 +74,8 @@ input[type=search]{height:52px;padding:0 16px 0 46px;font-weight:600}
 .ghead h3{margin:0;font-size:19px}
 .ghead .line{flex:1;height:1px;background:#E6D8C4}
 .card{display:flex;gap:14px;align-items:flex-start;padding:14px;border-radius:18px;background:#fff;border:1px solid #EFE4D4;box-shadow:0 4px 14px rgba(43,26,16,.06)}
-.tile{width:56px;height:56px;flex:0 0 56px;border-radius:16px;display:flex;align-items:center;justify-content:center}
+.tile{width:72px;height:72px;flex:0 0 72px;border-radius:16px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pimg{width:100%;height:100%;object-fit:cover;display:block}
 .card h4{margin:0;font-size:19px;line-height:1.2}
 .card p{margin:0;font-size:14px;line-height:1.45;color:#5C4A3B}
 .meta{font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#3F4A24}
@@ -209,6 +210,9 @@ const ICONS = {
   fryer: '<rect x="4.5" y="3.5" width="15" height="17" rx="4"/><path d="M4.5 12.5h15"/><circle cx="9" cy="8" r="1.2"/><circle cx="15" cy="8" r="1.2"/><path d="M10 16.5h4"/>',
   box: '<path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/>'
 };
+const pic = (p, size, alt) => p.img
+  ? `<img class="pimg" src="${esc(p.img)}" alt="${esc(alt)}" loading="lazy" width="${size}" height="${size}" onerror="this.remove()">`
+  : svg(ICONS[p.icon] || ICONS.box, Math.round(size * 0.45));
 const svg = (paths, size, stroke) => `<svg aria-hidden="true" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${stroke || 'currentColor'}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${paths}</svg>`;
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const url = (p) => `https://www.amazon.com/dp/${p.asin}/?tag=${CONFIG.amazonTag}`;
@@ -246,7 +250,7 @@ document.getElementById('latest').innerHTML = `
 <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
 <span class="pill"><span class="dot"></span>New episode</span><span class="muted" style="font-size:13px;font-weight:700">Episode ${pad(latest.n)}</span></div>
 <div style="display:flex;gap:16px;align-items:center">
-<div style="width:96px;height:96px;flex:0 0 96px;border-radius:22px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 40%,#fff,${lc.tint} 60%);color:${lc.color};box-shadow:0 10px 26px ${lc.glow}">${svg(ICONS[latest.icon] || ICONS.box, 44)}</div>
+<div style="width:96px;height:96px;flex:0 0 96px;border-radius:22px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 40%,#fff,${lc.tint} 60%);color:${lc.color};box-shadow:0 10px 26px ${lc.glow};overflow:hidden">${pic(latest, 96, latest.name)}</div>
 <div style="min-width:0"><h2 class="serif" id="latest-title" style="font-size:25px">${esc(latest.title || latest.name)}</h2>
 <p style="margin:4px 0 0;font-size:15px;line-height:1.45;color:#5C4A3B">The ${esc(latest.name.toLowerCase())} from the video. ${esc(latest.take)}</p></div></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap">${amazonLink(latest, true)}
@@ -263,7 +267,7 @@ document.getElementById('total').textContent = `${PRODUCTS.length} products in $
 
 function card(p) {
   const c = CATEGORIES[p.cat];
-  return `<article class="card"><div class="tile" style="background:${c.tint};color:${c.color};box-shadow:0 6px 18px ${c.glow},inset 0 1px 0 rgba(255,255,255,.8)">${svg(ICONS[p.icon] || ICONS.box, 28)}</div>
+  return `<article class="card"><div class="tile" style="background:${c.tint};color:${c.color};box-shadow:0 6px 18px ${c.glow},inset 0 1px 0 rgba(255,255,255,.8)">${pic(p, 72, p.name)}</div>
 <div style="display:flex;flex-direction:column;gap:6px;min-width:0;flex:1">
 <div class="meta">Episode ${pad(p.n)} <span>· ${esc(p.room)}</span></div>
 <h4 class="serif">${esc(p.name)}</h4><p>${esc(p.take)}</p>

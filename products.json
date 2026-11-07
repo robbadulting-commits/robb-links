@@ -36,6 +36,7 @@
       "asin": "B004QGXND0",
       "note": "No plug needed",
       "icon": "box",
+      "img": "img/ep06.jpg",
       "tags": "onion chopper kitchen pull cord tears"
     },
     {
@@ -48,6 +49,7 @@
       "asin": "B07NBQX8HS",
       "note": "SA: get 220-240 V",
       "icon": "fryer",
+      "img": "img/ep05.jpg",
       "tags": "chips cooking oven",
       "warning": "In South Africa? The Amazon one is a US 120 V model. Get a 220-240 V version on Temu."
     },
@@ -60,6 +62,7 @@
       "asin": "B09YH552HR",
       "note": "No plug needed",
       "icon": "window",
+      "img": "img/ep04.jpg",
       "tags": "heat sun glass cooling"
     },
     {
@@ -71,6 +74,7 @@
       "asin": "B091FXQQMQ",
       "note": "SA: get a local plug",
       "icon": "plug",
+      "img": "img/ep03.jpg",
       "tags": "wifi lamp lights app"
     },
     {
@@ -82,6 +86,7 @@
       "asin": "B076X89GRW",
       "note": "USB powered",
       "icon": "tv",
+      "img": "img/ep02.jpg",
       "tags": "led light strip cricket screen"
     }
   ]
