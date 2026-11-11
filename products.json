@@ -1,119 +1,119 @@
 {
- "categories": {
-  "Lighting & screens": {
-   "short": "Lighting",
-   "color": "#E8902F",
-   "tint": "#FFF1DC",
-   "glow": "rgba(232,144,47,.35)"
+  "categories": {
+    "Lighting & screens": {
+      "short": "Lighting",
+      "color": "#E8902F",
+      "tint": "#FFF1DC",
+      "glow": "rgba(232,144,47,.35)"
+    },
+    "Smart home": {
+      "short": "Smart home",
+      "color": "#4263EB",
+      "tint": "#E9EEFF",
+      "glow": "rgba(66,99,235,.28)"
+    },
+    "Comfort & cooling": {
+      "short": "Cooling",
+      "color": "#1C8C9E",
+      "tint": "#E1F4F6",
+      "glow": "rgba(28,140,158,.28)"
+    },
+    "Kitchen & cooking": {
+      "short": "Kitchen",
+      "color": "#C2552B",
+      "tint": "#FDEADC",
+      "glow": "rgba(194,85,43,.30)"
+    }
   },
-  "Smart home": {
-   "short": "Smart home",
-   "color": "#4263EB",
-   "tint": "#E9EEFF",
-   "glow": "rgba(66,99,235,.28)"
-  },
-  "Comfort & cooling": {
-   "short": "Cooling",
-   "color": "#1C8C9E",
-   "tint": "#E1F4F6",
-   "glow": "rgba(28,140,158,.28)"
-  },
-  "Kitchen & cooking": {
-   "short": "Kitchen",
-   "color": "#C2552B",
-   "tint": "#FDEADC",
-   "glow": "rgba(194,85,43,.30)"
-  }
- },
- "products": [
-  {
-   "n": 9,
-   "room": "Kitchen",
-   "cat": "Kitchen & cooking",
-   "name": "Handheld milk frother",
-   "title": "It's a potato",
-   "take": "Warm milk. Whisk in. Twenty seconds. Café foam, my kitchen. The heart is still a potato.",
-   "asin": "B01K6YLWQA",
-   "note": "2 x AA batteries, no plug needed",
-   "icon": "box",
-   "img": "img/ep09.jpg",
-   "tags": "coffee milk frother foam latte kitchen"
-  },
-  {
-   "n": 8,
-   "room": "Kitchen",
-   "cat": "Kitchen & cooking",
-   "name": "Instant-read food thermometer",
-   "title": "No more surgery",
-   "take": "Tip in. Thickest part. Wait. Seventy-four degrees. That's done. No surgery.",
-   "asin": "B00S93EQUK",
-   "note": "Coin cell, no plug needed",
-   "icon": "box",
-   "img": "img/ep08.jpg",
-   "tags": "chicken meat thermometer cooking kitchen probe"
-  },
-  {
-   "n": 6,
-   "room": "Kitchen",
-   "cat": "Kitchen & cooking",
-   "name": "Pull-cord food chopper",
-   "title": "The onion started it",
-   "take": "Onion in. Lid on. Pull. Four pulls. Ten seconds. Done. Then I opened the lid.",
-   "asin": "B004QGXND0",
-   "note": "No plug needed",
-   "icon": "box",
-   "img": "img/ep06.jpg",
-   "tags": "onion chopper kitchen pull cord tears"
-  },
-  {
-   "n": 5,
-   "room": "Kitchen",
-   "cat": "Kitchen & cooking",
-   "name": "Air fryer",
-   "title": "The cooking loophole",
-   "take": "It doesn't actually fry. It's a tiny, very angry oven. Chips three days running. Still no spoon.",
-   "asin": "B07NBQX8HS",
-   "note": "SA: get 220-240 V",
-   "icon": "fryer",
-   "img": "img/ep05.jpg",
-   "tags": "chips cooking oven",
-   "warning": "In South Africa? The Amazon one is a US 120 V model. Get a 220-240 V version on Temu."
-  },
-  {
-   "n": 4,
-   "room": "Living room",
-   "cat": "Comfort & cooling",
-   "name": "Heat-blocking window film",
-   "take": "Bounces part of the sun back out. Installation went perfectly. Ignore the bubble.",
-   "asin": "B09YH552HR",
-   "note": "No plug needed",
-   "icon": "window",
-   "img": "img/ep04.jpg",
-   "tags": "heat sun glass cooling"
-  },
-  {
-   "n": 3,
-   "room": "Bedroom",
-   "cat": "Smart home",
-   "name": "Wi-Fi smart plug",
-   "take": "Lamps off from bed. Tested it forty-two times. It works every time.",
-   "asin": "B091FXQQMQ",
-   "note": "SA: get a local plug",
-   "icon": "plug",
-   "img": "img/ep03.jpg",
-   "tags": "wifi lamp lights app"
-  },
-  {
-   "n": 2,
-   "room": "Living room",
-   "cat": "Lighting & screens",
-   "name": "USB TV backlight strip",
-   "take": "Peel, stick, plug into the TV. The picture pops. The cricket is still late.",
-   "asin": "B076X89GRW",
-   "note": "USB powered",
-   "icon": "tv",
-   "img": "img/ep02.jpg",
-   "tags": "led light strip cricket screen"
-  }
- ]
+  "products": [
+    {
+      "n": 9,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Handheld milk frother",
+      "title": "It's a potato",
+      "take": "Warm milk. Whisk in. Twenty seconds. Café foam, my kitchen. The heart is still a potato.",
+      "asin": "B01K6YLWQA",
+      "note": "2 x AA batteries, no plug needed",
+      "icon": "box",
+      "img": "img/ep09.jpg",
+      "tags": "coffee milk frother foam latte kitchen"
+    },
+    {
+      "n": 8,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Instant-read food thermometer",
+      "title": "No more surgery",
+      "take": "Tip in. Thickest part. Wait. Seventy-four degrees. That's done. No surgery.",
+      "asin": "B00S93EQUK",
+      "note": "Coin cell, no plug needed",
+      "icon": "box",
+      "img": "img/ep08.jpg",
+      "tags": "chicken meat thermometer cooking kitchen probe"
+    },
+    {
+      "n": 6,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Pull-cord food chopper",
+      "title": "The onion started it",
+      "take": "Onion in. Lid on. Pull. Four pulls. Ten seconds. Done. Then I opened the lid.",
+      "asin": "B004QGXND0",
+      "note": "No plug needed",
+      "icon": "box",
+      "img": "img/ep06.jpg",
+      "tags": "onion chopper kitchen pull cord tears"
+    },
+    {
+      "n": 5,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Air fryer",
+      "title": "The cooking loophole",
+      "take": "It doesn't actually fry. It's a tiny, very angry oven. Chips three days running. Still no spoon.",
+      "asin": "B07NBQX8HS",
+      "note": "SA: get 220-240 V",
+      "icon": "fryer",
+      "img": "img/ep05.jpg",
+      "tags": "chips cooking oven",
+      "warning": "In South Africa? The Amazon one is a US 120 V model. Get a 220-240 V version on Temu."
+    },
+    {
+      "n": 4,
+      "room": "Living room",
+      "cat": "Comfort & cooling",
+      "name": "Heat-blocking window film",
+      "take": "Bounces part of the sun back out. Installation went perfectly. Ignore the bubble.",
+      "asin": "B09YH552HR",
+      "note": "No plug needed",
+      "icon": "window",
+      "img": "img/ep04.jpg",
+      "tags": "heat sun glass cooling"
+    },
+    {
+      "n": 3,
+      "room": "Bedroom",
+      "cat": "Smart home",
+      "name": "Wi-Fi smart plug",
+      "take": "Lamps off from bed. Tested it forty-two times. It works every time.",
+      "asin": "B091FXQQMQ",
+      "note": "SA: get a local plug",
+      "icon": "plug",
+      "img": "img/ep03.jpg",
+      "tags": "wifi lamp lights app"
+    },
+    {
+      "n": 2,
+      "room": "Living room",
+      "cat": "Lighting & screens",
+      "name": "USB TV backlight strip",
+      "take": "Peel, stick, plug into the TV. The picture pops. The cricket is still late.",
+      "asin": "B076X89GRW",
+      "note": "USB powered",
+      "icon": "tv",
+      "img": "img/ep02.jpg",
+      "tags": "led light strip cricket screen"
+    }
+  ]
 }
