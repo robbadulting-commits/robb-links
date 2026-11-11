@@ -27,6 +27,19 @@
   },
   "products": [
     {
+      "n": 8,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Instant-read food thermometer",
+      "title": "No more surgery",
+      "take": "Tip in. Thickest part. Wait. Seventy-four degrees. That's done. No surgery.",
+      "asin": "B00S93EQUK",
+      "note": "Coin cell, no plug needed",
+      "icon": "box",
+      "img": "img/ep08.jpg",
+      "tags": "chicken meat thermometer cooking kitchen probe"
+    },
+    {
       "n": 6,
       "room": "Kitchen",
       "cat": "Kitchen & cooking",
