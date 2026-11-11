@@ -27,6 +27,19 @@
   },
   "products": [
     {
+      "n": 10,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Silicone cooking utensil set with holder",
+      "title": "I own a spoon",
+      "take": "A month of stirring soup with a fork. Now: spatula, tongs, ladle. And, finally, a spoon.",
+      "asin": "B08573DQ39",
+      "note": "No power needed",
+      "icon": "box",
+      "img": "img/ep10.jpg",
+      "tags": "spoon spatula ladle tongs silicone kitchen"
+    },
+    {
       "n": 9,
       "room": "Kitchen",
       "cat": "Kitchen & cooking",
