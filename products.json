@@ -27,6 +27,19 @@
   },
   "products": [
     {
+      "n": 14,
+      "room": "Kitchen",
+      "cat": "Kitchen & cooking",
+      "name": "Sushi making kit (bamboo mat, rice paddle, knife)",
+      "title": "Wrong order",
+      "take": "Someone asked if I can make sushi. I can't. Two days and one kit later: lumpy, but it holds.",
+      "asin": "B089ZY5ZGP",
+      "note": "No power needed",
+      "icon": "box",
+      "img": "img/ep14.jpg",
+      "tags": "sushi kit bamboo mat rice paddle"
+    },
+    {
       "n": 10,
       "room": "Kitchen",
       "cat": "Kitchen & cooking",
