@@ -23,9 +23,28 @@
       "color": "#C2552B",
       "tint": "#FDEADC",
       "glow": "rgba(194,85,43,.30)"
+    },
+    "Wearables": {
+      "short": "Wearables",
+      "color": "#7B4BC4",
+      "tint": "#F1EAFB",
+      "glow": "rgba(123,75,196,.28)"
     }
   },
   "products": [
+    {
+      "n": 15,
+      "room": "Out & about",
+      "cat": "Wearables",
+      "name": "Smartwatch with heart rate + step tracking",
+      "title": "My watch is lying",
+      "take": "My watch thinks I'm working out. I'm standing in a coffee queue.",
+      "asin": "B0DT3YNMBX",
+      "note": "USB charging, iPhone + Android",
+      "icon": "box",
+      "img": "img/ep15.jpg",
+      "tags": "smartwatch heart rate step tracker fitness watch"
+    },
     {
       "n": 14,
       "room": "Kitchen",
