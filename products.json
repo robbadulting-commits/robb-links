@@ -29,9 +29,28 @@
       "color": "#7B4BC4",
       "tint": "#F1EAFB",
       "glow": "rgba(123,75,196,.28)"
+    },
+    "Fitness": {
+      "short": "Fitness",
+      "color": "#2F9E44",
+      "tint": "#E3F6E6",
+      "glow": "rgba(47,158,68,.28)"
     }
   },
   "products": [
+    {
+      "n": 16,
+      "room": "The gym",
+      "cat": "Fitness",
+      "name": "Resistance bands set with handles",
+      "title": "It's Robb",
+      "take": "Asking for me. Because she's on the next machine.",
+      "asin": "B07DWSPQQY",
+      "note": "No power needed, works anywhere",
+      "icon": "box",
+      "img": "img/ep16.jpg",
+      "tags": "resistance bands handles door anchor home workout gym"
+    },
     {
       "n": 15,
       "room": "Out & about",
